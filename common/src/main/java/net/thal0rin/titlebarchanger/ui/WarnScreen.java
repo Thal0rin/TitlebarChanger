@@ -45,7 +45,6 @@ public class WarnScreen extends Screen {
 
     @Override
     public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float delta) {
-        this.renderBackground(guiGraphics);
         super.render(guiGraphics, mouseX, mouseY, delta);
 
         int titleX = this.width / 2;

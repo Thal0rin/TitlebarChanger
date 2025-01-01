@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[2,)"
 license = "GNU GPL 3.0"
 
 [[mods]]
@@ -11,16 +11,19 @@ description = "Minecraft mod that offers advanced customization of window appear
 logoFile = "logo.png"
 
 [[dependencies.titlebarchanger]]
-modId = "forge"
-mandatory = true
-versionRange = "[51,)"
+modId = "neoforge"
+type = "required"
+versionRange = "[21-beta,)"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.titlebarchanger]]
 modId = "minecraft"
-mandatory = true
-versionRange="[1.21,)"
+type = "required"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "CLIENT"
 
+
+[[mixins]]
+config = "titlebarchanger.mixins.json"
