@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.thal0rin.titlebarchanger.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "AddTitleBarSettingsButton",
+    "AddWarnScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
