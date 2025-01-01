@@ -20,7 +20,7 @@ side = "CLIENT"
 [[dependencies.titlebarchanger]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1,)"
+versionRange = "[1.20.1]"
 ordering = "NONE"
 side = "CLIENT"
 
